@@ -14,8 +14,4 @@ class Linear_feedback_shift_register:
         return int(random_num, 2)
 
 
-lfsr = Linear_feedback_shift_register()
-#for i in range(200):
-while True:
-    print(lfsr.get_random_num(40))
 
